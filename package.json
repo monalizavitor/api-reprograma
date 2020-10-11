@@ -1,0 +1,26 @@
+{
+  "name": "api-reprograma",
+  "version": "1.0.0",
+  "description": "Api pra ser consumida no blog da {reprograma}",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monalizavitor/apis-reprograma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monalizavitor/apis-reprograma/issues"
+  },
+  "homepage": "https://github.com/monalizavitor/apis-reprograma#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
